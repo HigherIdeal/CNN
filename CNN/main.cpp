@@ -3,7 +3,8 @@
 int main()
 {
 	int a = 0;
-	std::cin >> a;
+	int b = 0;
+	std::cin >> a >> b;
 
-	std::cout << a;
+	std::cout << a + b;
 }
